@@ -1,3 +1,9 @@
+---
+layout: post
+title: 02. Ads / Marketing
+image: 12.jpg
+---
+
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -8,10 +14,12 @@
   <body class="{{ class }}">
   {% endif %}
 
+    {% if site.google-analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
+
     <div class="full-page-container">
       <div class="overlay"></div>
-      {% include header.html %}
-      {% include search.html %}
 
         {{ content }}
 

@@ -1,31 +1,31 @@
 # Site settings
 title: Digitimmy
-description: 티미의 디지털 마케팅
+description: 에이전시 마케터 티미의 마케팅 로그
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitimmy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner Section
-hero: 112.jpg
-hero-title: Timmy's Digital Marketing
-hero-description: Timmy's Little Marketing Tips
+hero: 002.jpg
+hero-title: Timmy's Marketing Log
+hero-description: 마케터로 살아가는 기록들
 
 # Author - Creator
 author-name: Timmy Ahn
-author-image: 10.jpg
+author-image: 001.png
 about-author: 광고대행사 AE, 호기심이 많으며 말하는 것을 좋아함
 author-email: minyucka@gmail.com
 author-facebook: https://facebook.com/minyuck
-author-instagram: https://www.instagram.com/
+author-instagram: https://www.instagram.com/minyuck
 
 
 # Social Media Links (Links are located in hero and footer)
 facebook: https://facebook.com/minyuck
 instagram: https://www.instagram.com/minyuck
-linkedin: https://www.linkedin.com
+linkedin: https://www.linkedin.com/in/민혁-안-00223224b/
 
 
 # Contact Form Settings
-contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
+contact-subtitle: please DM. # Title for the subscription form.
 
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
@@ -34,7 +34,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: Timmy # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
 markdown: kramdown
