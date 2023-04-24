@@ -5,17 +5,25 @@ category: ga
 permalink: /ga
 taxonomy: GA
 ---
-{% for post in site.posts %}
-    <div class="post-list">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.date | date: "%b %d, %Y" }} by {{ post.author }}</p>
-    </div>
+
+<ul>
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for post in category.last %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+{% for post in site.categories %}
+
 
 <div class="content-wrap">
   <div class="wrapper" data-page="1" data-totalPages="1">
   
-   
-    <article class="posts">
+   <article class="posts">
       
         <a class="post-thumbnail hidden" style="background-image: url(/images/pages/17.jpg)" href="/2017/10/28/10-best-books-of-all-time/">
           
